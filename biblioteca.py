@@ -1,4 +1,4 @@
-def listaTarefas(lista):
+"""def listaTarefas(lista):
     continuar = input("Deseja adicionar uma tarefa hoje? (s/n): ")
 
     for i in range(len(lista)):
@@ -12,4 +12,9 @@ def listaTarefas(lista):
     if lista != " ":
         print("Suas tarefas do dia são: ")
         for x in lista:
-            print("-", x)
+            print("-", x)"""
+
+lista = [1,2,3]
+for i in range(len(lista)):
+
+    print(len(i))
